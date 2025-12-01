@@ -1,0 +1,31 @@
+.hover-shadow:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+body {
+    background: #f8f9fa;
+
+    .medicine-img {
+        width: 100%;
+        height: 200px; /* adjust as needed */
+        object-fit: cover;
+    }
+    
+    .hover-shadow:hover {
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        transition: 0.3s;
+    }
+    
+    .medicine-img {
+        height: 200px;      /* same height for all */
+        object-fit: contain; /* keeps aspect ratio, no stretching */
+        width: 100%;         /* make it responsive */
+        background-color: #f8f9fa; /* optional: gray background for empty space */
+    }
+    
+}
